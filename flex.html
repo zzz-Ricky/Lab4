@@ -93,7 +93,7 @@ Description : Flex Layouts.
         
 
         @media screen and (min-width: 769px) {
-            .menu { width: 150px;}     
+            .menu { width: 150px; flex-grow: 0; flex-shrink: 0;}     
 			.large { 
 				/*I need some CSS codes.*/
 				width: 100%;
@@ -105,7 +105,7 @@ Description : Flex Layouts.
 			.small { 
 				/*I need some CSS codes.*/
 				width: 30%;
-			 }       
+			}       
         }
 
         @media screen and (max-width: 768px) {
@@ -116,7 +116,7 @@ Description : Flex Layouts.
             .menu ul { 
 				/*I need some CSS codes.*/
 				flex-direction: row;
-			 }            
+			}            
             /*I need some CSS codes.*/
 			.large { 
 				/*I need some CSS codes.*/
@@ -129,7 +129,7 @@ Description : Flex Layouts.
 			.small { 
 				/*I need some CSS codes.*/
 				width: 40%;
-			 }       
+			}       
         }
 
         @media screen and (max-width: 480px) {
@@ -137,8 +137,8 @@ Description : Flex Layouts.
             .medium, .small { 
 				/*I need some CSS codes.*/
 				width: 100%;
-			 }
-			 .row { 
+			}
+			.row { 
 			/*I need some CSS codes.*/
 			flex-direction: column;
 			
