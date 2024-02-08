@@ -69,14 +69,19 @@ Description : Flex Layouts.
         img { max-width: 100%; height: auto; }
         .container { 
 			/*I need some CSS codes.*/
-		 }
+			display: flex;
+			flex-direction: column;
+		}
         .header, .footer { background-color: #f2f2f2; text-align: center; padding: 10px; width: 100%;}
 		.body { 
 			/*I need some CSS codes.*/
+			display: flex;
 		}
         .main { 
 			padding: 15px; 
 			/*I need some CSS codes.*/
+			display: flex;
+			flex-direction: column;
 		}
         
         .news-item { padding: 10px; }
@@ -106,7 +111,7 @@ Description : Flex Layouts.
         @media screen and (max-width: 768px) {
 			.body { 
 				/*I need some CSS codes.*/
-				
+				display: inline;
 			}
             .menu ul { 
 				/*I need some CSS codes.*/
