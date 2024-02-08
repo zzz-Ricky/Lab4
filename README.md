@@ -8,3 +8,7 @@ directly in the html file.
 |Akaash Aujla|
 |Ricky Huynh|
 ## Screenshots
+### Exercise B
+![Exersize B Completed](./ExerciseB.gif)
+### Exercise C
+![Exercise C Completed](./ExerciseC.gif)
